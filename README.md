@@ -7,7 +7,9 @@ quando si clicca su un numero, concatenarlo al numero visualizzato in alto
 
 ### Svolgimento
 
-- testo
+- prelevo gli elementi relativi ai numeri dalla pagina
+- creo un event listener per ciascun numero
+- all'event listener collego una funzione di call back per visualizzare i numeri nel display della calcolatrice
 
 ## MILESTONE 2
 
