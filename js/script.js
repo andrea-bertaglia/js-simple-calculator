@@ -14,7 +14,6 @@ const btnListenerEight = document.getElementById("8");
 const btnListenerNine = document.getElementById("9");
 
 // prelevo gli operatori
-const btnListenerC = document.getElementById("c");
 const btnListenerPlus = document.getElementById("plus");
 const btnListenerMinus = document.getElementById("minus");
 const btnListenerTimes = document.getElementById("times");
@@ -22,6 +21,9 @@ const btnListenerDivide = document.getElementById("divide");
 
 // prelevo l'elemento del display
 const btnListenerDisplay = document.getElementById("total");
+
+// prelevo l'elemento "canc"
+const btnListenerCancel = document.getElementById("cancel");
 
 // prelevo il tasto del totale
 const btnListenerEquals = document.getElementById("equals")
@@ -46,6 +48,9 @@ btnListenerDivide.addEventListener("click", getOperation);
 
 // associo event listener al tasto del totale
 btnListenerEquals.addEventListener("click", getTotal);
+
+// associo event listener al tasto cancel
+btnListenerCancel.addEventListener("click", cancelDisplay)
 
 let NumDisplay = "";
 let operationSign = "";

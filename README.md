@@ -42,7 +42,9 @@ pulsante canc: cliccando il pulsante si resetta il calcolo
 
 ### Svolgimento
 
-- testo
+- prelevo l'elemento Cancel
+- creo un event listener l'elemento
+- creo una funzione per resettare il contenuto del display
 
 ## BONUS
 

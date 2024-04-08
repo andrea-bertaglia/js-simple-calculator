@@ -15,7 +15,7 @@ function getOperation() {
     console.log(firstNumber);
 }
 
-function getTotal () {
+function getTotal() {
     secondNumber = parseInt(NumDisplay)
 
     console.log("al click di = il primo numero è: ", firstNumber);
@@ -35,4 +35,12 @@ function getTotal () {
     console.log("il risultato è: ", result);
 
     btnListenerDisplay.innerHTML = result;
+}
+
+function cancelDisplay() {
+    NumDisplay = "0";
+    btnListenerDisplay.innerHTML = NumDisplay;
+    console.log(NumDisplay);
+    console.log(btnListenerDisplay.innerHTML);
+    NumDisplay = "";
 }
