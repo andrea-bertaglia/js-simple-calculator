@@ -29,7 +29,12 @@ quando si clicca su =, salvare il secondo operando, effetuare il calcolo corrett
 
 ### Svolgimento
 
-- testo
+- prelevo l'elemento "=" dalla pagina
+- creo event listener sull'elemento
+- creo una funzione che al clik del pulsante "=":
+  1. salva il secondo numero
+  2. effettua il calcolo
+  3. visualizza il risultato
 
 ## MILESTONE 4
 
