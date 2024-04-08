@@ -18,7 +18,9 @@ quando si clicca su un operatore, salvare l'operatore cliccato e il primo operan
 
 ### Svolgimento
 
-- testo
+- prelevo gli elementi relativi agli operatori
+- creo un event listener per ciascun operatore
+- creo una funzione per prelevare l'operando, il primo numero e resettare il display
 
 ## MILESTONE 3
 
