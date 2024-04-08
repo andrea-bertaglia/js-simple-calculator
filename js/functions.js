@@ -29,7 +29,11 @@ function getTotal() {
     } else if (operationSign === "×") {
         result = firstNumber * secondNumber;
     } else if (operationSign === "÷") {
-        result = firstNumber / secondNumber;
+        if (secondNumber === 0) {
+            result = "ERROR";
+        } else {
+            result = firstNumber / secondNumber;
+        }
     }
 
     console.log("il risultato è: ", result);
