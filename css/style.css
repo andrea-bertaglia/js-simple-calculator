@@ -1,0 +1,129 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* COMMON */
+* {
+  font-family: "Seven Segment", sans-serif;
+}
+
+body {
+  display: flex;
+}
+
+/* MAIN */
+main {
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 10px 300px;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  display: flex;
+  background-image: linear-gradient(to bottom right, #c2c1c1, #d3d3d3, #fff);
+  flex-wrap: wrap;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  width: 100%;
+  height: 10%;
+}
+
+/* DISPLAY SECTION */
+.display {
+  background-color: black;
+  color: aquamarine;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 40px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+/* BUTTONS SECTION */
+.buttons {
+  display: flex;
+}
+
+.right {
+  width: 70%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  width: 30%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+}
+
+.buttons .right button {
+  font-size: 25px;
+  margin: 5px;
+  width: calc(100% / 4);
+  padding: 5px;
+  flex-grow: 1;
+  border-radius: 5px;
+}
+
+.buttons .left button {
+  font-size: 25px;
+  margin: 5px;
+  padding: 5px;
+  flex-grow: 1;
+  border-radius: 5px;
+}
+
+.grey-button {
+  background-color: #a7a5a5;
+}
+
+.orange-button {
+  background-color: orange;
+  color: white;
+}
+
+.blue-button {
+  background-color: #76a8b0;
+  color: white;
+}
+
+.buttons .right .btn-0 {
+  font-size: 20px;
+  margin: 5px;
+  width: 60%;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #a7a5a5;
+  flex-grow: 0;
+}
+
+.buttons .right .btn-r {
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: orange;
+  color: #fff;
+}
