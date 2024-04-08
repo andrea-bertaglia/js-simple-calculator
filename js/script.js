@@ -46,7 +46,7 @@ btnListenerDivide.addEventListener("click", getOperation);
 let firstNumDisplay = "";
 let secondNumDisplay = "";
 let operationSign = "";
-
+let firstNumber = 0;
 
 
 
